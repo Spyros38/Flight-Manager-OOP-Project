@@ -113,5 +113,4 @@ def structure_flight_data(departure_iata_code, destination_iata_code, destinatio
         )
         print(f"Number of cheap flights found:{number_of_cheap_flights} for {destination_common_name}")
         # print(f"Price of the cheapest flight is:{cheapest_flight_data_obj.price} from {cheapest_flight_data_obj.origin_city}, Airport:{cheapest_flight_data_obj.origin_airport}  to {destination_common_name}, Airport:{cheapest_flight_data_obj.destination_airport}")
-        # print(f"")
         return cheapest_flight_data_obj
